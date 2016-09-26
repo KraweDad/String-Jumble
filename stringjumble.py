@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Matthew F
+Credit: Robbie
 
 Assignment:
 
@@ -25,3 +25,11 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
+import string 
+from string import ascii_letters
+from string import ascii_lowercase
+
+start =str(input("Please enter a string of text (the bigger the better): "))
+
+print(start[::-1])
+print(start[::99])
