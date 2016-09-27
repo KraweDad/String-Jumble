@@ -30,6 +30,7 @@ from string import ascii_letters
 from string import ascii_lowercase
 
 start =str(input("Please enter a string of text (the bigger the better): "))
+print(" You entered " '"' + start + '"' ". Now jumble it: 
 S = start.split(" ")
 Start = S[::-1]
 print(start[::-1])
